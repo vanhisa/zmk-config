@@ -21,10 +21,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt ESCAPE TAB       &kp Q        &kp W             &kp E               &kp R           &kp T    &kp Y  &kp U            &kp I              &kp O        &kp P     &kp BSPC
-&mt LEFT_SHIFT CAPS  &mt LCTRL A  &mt LEFT_SHIFT S  &mt LEFT_ALT D      &mt LEFT_GUI F  &kp G    &kp H  &mt RIGHT_ALT J  &mt RIGHT_SHIFT K  &mt RCTRL L  &kp SEMI  &kp SQT
-&kp LCTRL            &kp Z        &kp X             &kp C               &kp V           &kp B    &kp N  &kp M            &kp COMMA          &kp DOT      &kp FSLH  &kp ENTER
-                                                    &mt LCTRL LEFT_GUI  &kp SPACE       &mo 1    &mo 2  &kp SPACE        &kp RALT
+&mt ESCAPE TAB       &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&mt LEFT_SHIFT CAPS  &kp A  &kp S  &kp D         &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL            &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
+                                   &kp LEFT_GUI  &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp RALT
             >;
         };
 
@@ -39,7 +39,7 @@
 &kp TAB         &kp N1           &kp N2       &kp N3         &kp N4        &kp N5                  &kp N6                 &kp N7        &kp N8        &kp N9        &kp N0                 &kp DEL
 &kp LEFT_SHIFT  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH       &kp DOLLAR    &kp PERCENT             &kp CARET              &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RIGHT_PARENTHESIS  &kp RIGHT_SHIFT
 &kp RCTRL       &kp TILDE        &kp LCTRL    &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL              &kp ESCAPE
-                                              &kp LGUI       &kp SPACE     &trans                  &mo 3                  &kp ENTER     &kp RALT
+                                              &kp LGUI       &trans        &kp SPACE               &kp ENTER              &mo 3         &kp RALT
             >;
         };
 
@@ -54,7 +54,7 @@
 &kp TAB    &kp F1   &kp F2          &kp F3          &kp F4           &kp F5             &kp F6        &kp F7        &kp F8           &kp F9              &kp F10         &kp BSPC
 &kp LCTRL  &kp F11  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp PRINTSCREEN    &kp C_VOL_DN  &kp UP_ARROW  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE    &kp C_NEXT      &kp GRAVE
 &kp LSHFT  &trans   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans             &kp LEFT      &kp DOWN      &kp RIGHT        &kp C_FAST_FORWARD  &kp C_PREVIOUS  &kp TILDE
-                                    &kp LGUI        &kp SPACE        &mo 3              &trans        &kp ENTER     &kp RALT
+                                    &kp LGUI        &mo 3            &kp SPACE          &kp ENTER     &trans        &kp RALT
             >;
         };
 
